@@ -18,8 +18,8 @@
     "Set IHP IDE BASEURL": "echo 'export IHP_IDE_BASEURL=\"https://${CODESPACE_NAME}-8001.preview.app.github.dev\"' >> ~/.bashrc"
   },
 
-  // Credits to https://github.com/gitpod-samples/template-ihp/blob/e3fe7012621ab57657c59511b2fe0bc615d5186d/.gitpod.yml#L14
   "postCreateCommand": {
+    // Credits to https://github.com/gitpod-samples/template-ihp/blob/e3fe7012621ab57657c59511b2fe0bc615d5186d/.gitpod.yml#L14
     "Setup IHP": "sudo /usr/local/share/nix-entrypoint.sh; ( if [ ! -e \"Main.hs\" ]; then rm -rf /tmp/ihp-boilerplate; git clone \"https:\/\/github.com/digitallyinduced/ihp-boilerplate.git\" /tmp/ihp-boilerplate; rm -rf /tmp/ihp-boilerplate/.git; cp -r /tmp/ihp-boilerplate/. .; nix-shell -j auto --cores 0 --quiet --run 'make -s all .envrc; new-application Web'; fi) && nix-shell -j auto --cores 0 --run 'make -s all .envrc' && direnv allow"
   },
 
