@@ -7,6 +7,6 @@ To add Codespaces to an existing IHP project, simply copy the [devcontainer conf
 ## Credits
 
 - __[CSchank](https://github.com/CSchank)__ — For helping with the configuration.
-- __[GitPod IHP Template]()__ - For helping setup the [IHP Boilerplate](https://github.com/digitallyinduced/ihp-boilerplate) on initialization. 
+- __[GitPod IHP Template]()__ — For helping setup the [IHP Boilerplate](https://github.com/digitallyinduced/ihp-boilerplate) on initialization. 
 
 See also [ihp.digitallyinduced.com](https://ihp.digitallyinduced.com/)
