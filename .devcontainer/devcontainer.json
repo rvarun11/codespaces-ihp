@@ -7,7 +7,7 @@
 
   "features": {
     "ghcr.io/devcontainers/features/nix:1": {
-      "packages": "cachix"
+      "packages": ["cachix", "ihp-new"]
     }
   },
 
