@@ -4,7 +4,7 @@ This is an IHP template configured to run on GitHub Codespaces. It can also be u
 
 ## Instructions
 1. Create a repo from this template.
-2. Run it in Codespaces / Devcontainer.
+2. Run it in Codespaces / Devcontainers.
 3. Wait for the initial setup to complete. This will take a few minutes and will use two bash windows, one of which will close when it's done. The other should be a blank terminal when it's done.
 4. Run `devenv up` to start the server.
 5. Have fun with IHP! :)
