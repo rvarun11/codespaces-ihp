@@ -15,7 +15,7 @@ placing it in `.devcontainer/devcontainer.json`. Then follow the above instructi
 
 ## Updates
 Sometimes GitHub updates Codespaces or their base container image, which may break this config. Please check here regularly for 
-updates and post an issue if you have problems running a Codespace/Devcontainer. To update, simply copy the new `devcontainer.json` 
-to your project, and then rebuild the container or recreate your Codespace/devcontainer entirely.
+updates and post an issue if you have problems running a Codespace / Devcontainer. To update, simply copy the new `devcontainer.json` 
+to your project, and then rebuild the container or recreate your Codespace / Devcontainer entirely.
 
 See also [ihp.digitallyinduced.com](https://ihp.digitallyinduced.com/)
