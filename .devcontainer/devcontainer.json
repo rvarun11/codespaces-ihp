@@ -1,10 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
 
-  "hostRequirements": {
-    "cpus": 4
-  },
-
   "features": {
       "ghcr.io/devcontainers/features/nix:1": {
         "multiUser": true,
