@@ -15,7 +15,7 @@ This is an IHP template configured to run on GitHub Codespaces and [VSCode Devco
 To add support to an existing IHP project, simply copy the [devcontainer configuration](.devcontainer/devcontainer.json) to your project, 
 placing it in `.devcontainer/devcontainer.json`. Then follow the above instructions.
 
-## Note for Codespaces
+## Note
 Sometimes GitHub updates Codespaces or their base container image, which may break this devcontainer configuration. Please check here regularly for 
 updates and post an issue if you have problems running a Codespace / Devcontainer. To update, simply copy the new `devcontainer.json` 
 to your project, and then rebuild the container or recreate your Codespace / Devcontainer entirely.
